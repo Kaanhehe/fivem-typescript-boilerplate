@@ -1,3 +1,14 @@
 {
-  "EnableNuiCommand": true
+  "EnableNuiCommand": true,
+  "Debug": {
+    "enabled": true,
+    "logLevel": "warn",
+    "modules": {
+      "client": true,
+      "server": true,
+      "ui": false,
+      "inventory": true,
+      "fishing": true
+    }
+  }
 }

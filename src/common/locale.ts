@@ -1,6 +1,6 @@
 import { locale, type FlattenObjectKeys } from '@communityox/ox_lib';
 
-type RawLocales = FlattenObjectKeys<typeof import('../../locales/en.json')>;
+type RawLocales = FlattenObjectKeys<typeof import('../../locales/de.json')>;
 
 function Locale<T extends RawLocales>(str: T, ...args: any[]): string;
 function Locale<T extends string>(str: T, ...args: any[]): string | unknown;
