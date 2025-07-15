@@ -1,7 +1,7 @@
 import Config from './config';
 
 export type LogLevel = 'info' | 'warn' | 'error' | 'debug';
-export type DebugModule = 'client' | 'server' | 'ui' | 'inventory' | 'fishing';
+export type DebugModule = 'client' | 'server' | 'ui';
 
 export class DebugLogger {
   private static instance: DebugLogger;

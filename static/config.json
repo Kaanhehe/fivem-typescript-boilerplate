@@ -6,9 +6,7 @@
     "modules": {
       "client": true,
       "server": true,
-      "ui": false,
-      "inventory": true,
-      "fishing": true
+      "ui": false
     }
   }
 }
